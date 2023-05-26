@@ -1,0 +1,5 @@
+db_type=mysql
+db_url=jdbc:mysql://127.0.0.1:3306/
+db_name=world
+db_user=root
+db_pass=
