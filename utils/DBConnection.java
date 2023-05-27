@@ -10,7 +10,8 @@ public class DBConnection {
 	
     private static DBConnection instance; //este atributo se usa para guardarse a si mismo.
    
-    
+    	//synchronized es un modificador que asegura atomicidad, es decir
+	//solo puede ser accedido por un hilo de ejecucion a la vez.
     public static synchronized DBConnection getInstance() {
     	if(instance == null) {
     		instance = new DBConnection();
